@@ -1,0 +1,6 @@
+neat-checkpoint*
+*.txt
+*.png
+*.pyc
+BotHub/
+KeyScript.py
