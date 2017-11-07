@@ -235,7 +235,7 @@ class ScreenViewer:
                     self.bird_y = y
 
                     #self.c.acquire()
-                    self.bitMap[x * self.sqrt_num_neurons + y] = 100
+                    self.bitMap[x * self.sqrt_num_neurons + y] = 10
                     self.distanceFromCenter = (y - self.sqrt_num_neurons) ** 2
                     #self.c.release()
                 else:
@@ -264,13 +264,9 @@ class ScreenViewer:
 
 
 
-screen_def = (600, 135, 520, 690)
-sv = ScreenViewer(screen_def, 900)
+#screen_def = (600, 135, 520, 690)
+#sv = ScreenViewer(screen_def, 900)
 
 # Continuously get input. Function is slow enough to not require sleep between calls
-while(True):
-    sv.getInput()
-
-
-
-
+#while(True):
+#    sv.getInput()

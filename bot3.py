@@ -174,7 +174,7 @@ class Bot:
                 #print "Time to loop: " + str(endLoop - startLoop)
 
             end = int(round(time.time() * 1000))
-            genome.fitness = ((end - start) / 1000.0) + (num_apps / 10.0)
+            genome.fitness = ((end - start) / 1000.0) + (num_apps / 20.0)
             print genome.fitness
             #creature.alive = True
             
